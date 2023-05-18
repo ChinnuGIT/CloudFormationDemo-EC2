@@ -8,17 +8,19 @@ Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
     Type: String
-    
+    Default: mykeypair
     
 
   VPCId:
     Description: Put a VPC Id here
     Type: String
+    Default: vpc-07769cfeddd4729ac
     
     
   PrivateSubnetId:
     Description: Put a subnet Id here
     Type: String
+    Default: subnet-01d8deb93cbf86635
     
     
 
